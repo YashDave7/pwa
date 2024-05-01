@@ -1,0 +1,121 @@
+[debug] [2024-05-01T06:29:03.409Z] ----------------------------------------------------------------------
+[debug] [2024-05-01T06:29:03.411Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\yashd\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2024-05-01T06:29:03.411Z] CLI Version:   13.7.5
+[debug] [2024-05-01T06:29:03.411Z] Platform:      win32
+[debug] [2024-05-01T06:29:03.412Z] Node Version:  v18.8.0
+[debug] [2024-05-01T06:29:03.413Z] Time:          Wed May 01 2024 11:59:03 GMT+0530 (India Standard Time)
+[debug] [2024-05-01T06:29:03.413Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-05-01T06:29:03.421Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-05-01T06:29:03.421Z] > authorizing via signed-in user (yashdave307@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\yashd\OneDrive\Desktop\pwa
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-05-01T06:29:06.194Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-05-01T06:29:07.261Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-05-01T06:29:07.261Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project to-do-list-638fd (To Do List) 
+[info] 
+=== Hosting Setup
+[debug] [2024-05-01T06:29:07.876Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/to-do-list-638fd [none]
+[debug] [2024-05-01T06:29:08.475Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/to-do-list-638fd 200
+[debug] [2024-05-01T06:29:08.475Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/to-do-list-638fd {"projectId":"to-do-list-638fd","projectNumber":"420954375659","displayName":"To Do List","name":"projects/to-do-list-638fd","resources":{"hostingSite":"to-do-list-638fd","realtimeDatabaseInstance":"to-do-list-638fd-default-rtdb"},"state":"ACTIVE","etag":"1_cff6e05c-0d35-41f8-9f30-135a6b068a7b"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] +  Wrote public/404.html 
+[debug] [2024-05-01T06:29:23.919Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2024-05-01T06:29:24.299Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2024-05-01T06:29:24.299Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"10.11.1","browserURL":"https://www.gstatic.com/firebasejs/10.11.1/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/10.11.1/firebase.tgz"},"live":{"version":"10.11","browserURL":"https://www.gstatic.com/firebasejs/live/10.11/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/10.11/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/10.11.1/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/10.11.1/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/10.11.1/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/10.11.1/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/10.11.1/firebase-auth/cordova.js","auth/web-extension":"https://www.gstatic.com/firebasejs/10.11.1/firebase-auth/web-extension.js","functions":"https://www.gstatic.com/firebasejs/10.11.1/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/10.11.1/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/10.11.1/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/10.11.1/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/10.11.1/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/10.11.1/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/10.11.1/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/10.11.1/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/10.11.1/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/10.11.1/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/10.11.1/firebase-firestore.memory.js"}}
+[info] +  Wrote public/index.html 
+[info] 
+[info] i  Didn't detect a .git folder. Assuming C:\Users\yashd\OneDrive\Desktop\pwa is the project root. 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=175355424&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2024-05-01T06:29:28.714Z] Error: spawn cmd ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:283:19)
+    at onErrorNT (node:internal/child_process:476:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-05-01T06:32:07.331Z] ----------------------------------------------------------------------
+[debug] [2024-05-01T06:32:07.333Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\yashd\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2024-05-01T06:32:07.334Z] CLI Version:   13.7.5
+[debug] [2024-05-01T06:32:07.334Z] Platform:      win32
+[debug] [2024-05-01T06:32:07.334Z] Node Version:  v18.8.0
+[debug] [2024-05-01T06:32:07.335Z] Time:          Wed May 01 2024 12:02:07 GMT+0530 (India Standard Time)
+[debug] [2024-05-01T06:32:07.336Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-05-01T06:32:07.346Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-05-01T06:32:07.347Z] > authorizing via signed-in user (yashdave307@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\yashd\OneDrive\Desktop\pwa
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-05-01T06:32:13.612Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-05-01T06:32:14.664Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-05-01T06:32:14.664Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project to-do-list-638fd (To Do List) 
+[info] 
+=== Hosting Setup
+[debug] [2024-05-01T06:32:15.737Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/to-do-list-638fd [none]
+[debug] [2024-05-01T06:32:16.293Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/to-do-list-638fd 200
+[debug] [2024-05-01T06:32:16.293Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/to-do-list-638fd {"projectId":"to-do-list-638fd","projectNumber":"420954375659","displayName":"To Do List","name":"projects/to-do-list-638fd","resources":{"hostingSite":"to-do-list-638fd","realtimeDatabaseInstance":"to-do-list-638fd-default-rtdb"},"state":"ACTIVE","etag":"1_cff6e05c-0d35-41f8-9f30-135a6b068a7b"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2024-05-01T06:32:23.246Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2024-05-01T06:32:23.450Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2024-05-01T06:32:23.450Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"10.11.1","browserURL":"https://www.gstatic.com/firebasejs/10.11.1/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/10.11.1/firebase.tgz"},"live":{"version":"10.11","browserURL":"https://www.gstatic.com/firebasejs/live/10.11/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/10.11/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/10.11.1/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/10.11.1/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/10.11.1/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/10.11.1/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/10.11.1/firebase-auth/cordova.js","auth/web-extension":"https://www.gstatic.com/firebasejs/10.11.1/firebase-auth/web-extension.js","functions":"https://www.gstatic.com/firebasejs/10.11.1/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/10.11.1/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/10.11.1/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/10.11.1/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/10.11.1/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/10.11.1/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/10.11.1/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/10.11.1/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/10.11.1/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/10.11.1/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/10.11.1/firebase-firestore.memory.js"}}
+[info] +  Wrote public/index.html 
+[info] 
+[info] i  Didn't detect a .git folder. Assuming C:\Users\yashd\OneDrive\Desktop\pwa is the project root. 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=36143916&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2024-05-01T06:32:25.159Z] Error: spawn cmd ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:283:19)
+    at onErrorNT (node:internal/child_process:476:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+[error] 
+[error] Error: An unexpected error has occurred.
